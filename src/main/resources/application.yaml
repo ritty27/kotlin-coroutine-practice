@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+  datasource:
+    url: jdbc:mariadb://master.ccyopby9onfh.ap-northeast-2.rds.amazonaws.com/maillink?characterEncoding=UTF-8&serverTimezone=UTC
+    username: admin
+    password: Maillink9!
+    driver-class-name: com.mysql.cj.jdbc.Driver
